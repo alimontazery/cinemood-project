@@ -4,7 +4,7 @@ import numpy as np
 import keras
 
 CLASSES = ["angry", "happy", "neutral", "sad", "surprise"]  # same order as training
-model = keras.models.load_model("model2_v2_69.keras")
+model = keras.models.load_model("fer2_model_72_percent.keras")
 cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
 )
